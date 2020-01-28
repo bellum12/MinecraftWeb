@@ -1,0 +1,90 @@
+.Navigation
+{
+  margin-left: 0;
+  margin-right: 0;
+
+  height: 75px;
+
+  background-color: green;
+}
+
+.Navigation a
+{
+  margin-left: 200px;
+
+  margin-bottom: 50px;
+}
+
+.Navigation div
+{
+  margin-left: 50px;
+  margin-right: 1000px;
+  height: auto;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 50pt;
+}
+
+.Main
+{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: black;
+
+  border: 15px solid green;
+  border-radius: 20px;
+
+  padding: 15px;
+}
+
+@font-face {
+    font-family: 'font'; /*a name to be used later*/
+    src: url('VCR_OSD_MONO_1.001.ttf'); /*URL to font*/
+}
+
+.Main h2
+{
+  margin-left: 50px;
+}
+
+img
+{
+  width: 700px;
+
+
+  align: middle;
+}
+
+li
+{
+  color: green;
+}
+
+p{
+  color: green;
+}
+
+a {
+  color: green;
+
+  font-size: 50pt;
+}
+body
+{
+  font-family: font;
+
+  color: white;
+
+ background-image: url('DirtBlock.jpg');
+
+ background-size: auto;
+ background-repeat: repeat;
+ background-attachment: fixed;
+ background-position: left;
+background-size: 150px, 150px;
+}
